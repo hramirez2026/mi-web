@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>Demo Meta Pixel Catalog</title>
+    <link>https://tudominio.com</link>
+    <description>Catálogo de productos para Demo Meta Pixel</description>
+    
+    <item>
+      <g:id>1</g:id>
+      <g:title>Laptop Gamer</g:title>
+      <g:description>Potente laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.</g:description>
+      <g:link>https://tudominio.com/detalles.html?id=1</g:link>
+      <g:image_link>https://tudominio.com/img/laptop.png</g:image_link>
+      <g:brand>DemoBrand</g:brand>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>1299.00 USD</g:price>
+    </item>
+    
+    <item>
+      <g:id>2</g:id>
+      <g:title>Auriculares Premium</g:title>
+      <g:description>Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.</g:description>
+      <g:link>https://tudominio.com/detalles.html?id=2</g:link>
+      <g:image_link>https://tudominio.com/img/audio.png</g:image_link>
+      <g:brand>DemoBrand</g:brand>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>150.00 USD</g:price>
+    </item>
+    
+    <item>
+      <g:id>3</g:id>
+      <g:title>Smart TV 55"</g:title>
+      <g:description>Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.</g:description>
+      <g:link>https://tudominio.com/detalles.html?id=3</g:link>
+      <g:image_link>https://tudominio.com/img/tv.png</g:image_link>
+      <g:brand>DemoBrand</g:brand>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>499.00 USD</g:price>
+    </item>
+    
+    <item>
+      <g:id>4</g:id>
+      <g:title>Teclado Mecánico</g:title>
+      <g:description>Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.</g:description>
+      <g:link>https://tudominio.com/detalles.html?id=4</g:link>
+      <g:image_link>https://tudominio.com/img/teclado.png</g:image_link>
+      <g:brand>DemoBrand</g:brand>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>85.00 USD</g:price>
+    </item>
+    
+  </channel>
+</rss>
