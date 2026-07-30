@@ -181,3 +181,42 @@ h1, h2, h3, h4, h5, h6 {
     0% { transform: scale(0); opacity: 0; }
     100% { transform: scale(1); opacity: 1; }
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    #detail-img {
+        min-height: 250px !important;
+    }
+    .glass-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Make navbar items smaller on very small screens so they don't wrap awkwardly */
+    .navbar .btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.85rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .offcanvas {
+        max-width: 85% !important; /* Prevents cart from taking 100% on small devices */
+    }
+}

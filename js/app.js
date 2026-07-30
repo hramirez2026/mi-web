@@ -18,14 +18,18 @@ if (productosContainer) {
                 <img src='${p.imagen}' class='card-img-top' alt='${p.nombre}' style='object-fit: cover; height: 200px;'>
                 <div class='card-body d-flex flex-column'>
                     <span class="badge bg-secondary mb-2 align-self-start">${p.categoria}</span>
-                    <h5 class='mb-1'>${p.nombre}</h5>
-                    <p class='text-primary fw-bold mb-3'>$${p.precio}</p>
-                    <div class="mt-auto d-flex gap-2">
-                        <button class='btn btn-outline-light w-50' onclick='verDetalles(${p.id})'>Detalles</button>
-                        <button class='btn btn-success w-50' onclick='agregar(${p.id})'>Agregar</button>
+                <h5 class='mb-1'>${p.nombre}</h5>
+                <p class='text-primary fw-bold mb-3'>$${p.precio}</p>
+                <div class="row g-2 mt-auto">
+                    <div class="col-12 col-xl-6">
+                        <button class='btn btn-outline-light w-100' onclick='verDetalles(${p.id})'>Detalles</button>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <button class='btn btn-success w-100' onclick='agregar(${p.id})'>Agregar</button>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     `);
     productosContainer.innerHTML=h;
