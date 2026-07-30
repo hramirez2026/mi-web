@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>Compra Exitosa - Demo Meta Pixel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel=stylesheet>
+    <link href="css/styles.css" rel=stylesheet>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','2905036683191707');
+        fbq('track','PageView');
+
+        // Trigger Purchase Event
+        document.addEventListener('DOMContentLoaded', () => {
+            const total = parseFloat(localStorage.getItem('cartTotal')) || 0;
+            const ids = JSON.parse(localStorage.getItem('cartIds') || '[]');
+            if(total > 0) {
+                fbq('track', 'Purchase', {
+                    content_ids: ids,
+                    content_type: 'product',
+                    value: total,
+                    currency: 'USD'
+                });
+                // Clear local storage after purchase
+                localStorage.removeItem('cartTotal');
+                localStorage.removeItem('cartIds');
+            }
+        });
+    </script>
+    <!-- End Meta Pixel Code -->
+</head>
+<body>
+    <div class='hero-section container'>
+        <div class="glass-card p-5 text-center" style="max-width: 600px; width: 100%;">
+            <div class="success-icon">✓</div>
+            <h1 class='hero-title mb-4' style="font-size: 2.5rem;">¡Compra Exitosa!</h1>
+            <p class='hero-subtitle mx-auto' style="font-size: 1.1rem; margin-bottom: 2rem;">
+                Gracias por tu compra. Hemos registrado tu pedido y el evento <span class="badge bg-primary">Purchase</span> del Meta Pixel ha sido disparado.
+            </p>
+            <a class='btn btn-primary btn-lg w-100' href='index.html'>Volver al Inicio</a>
+        </div>
+    </div>
+</body>
+</html>
