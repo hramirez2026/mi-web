@@ -17,6 +17,7 @@
       <g:availability>in stock</g:availability>
       <g:price>1299.00 USD</g:price>
       <g:sale_price>1099.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
     
@@ -32,6 +33,7 @@
       <g:availability>in stock</g:availability>
       <g:price>150.00 USD</g:price>
       <g:sale_price>120.00 USD</g:sale_price>
+      <g:product_type>Audio</g:product_type>
       <g:google_product_category>Audio</g:google_product_category>
     </item>
     
@@ -47,6 +49,7 @@
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
       <g:sale_price>399.00 USD</g:sale_price>
+      <g:product_type>TV</g:product_type>
       <g:google_product_category>TV</g:google_product_category>
     </item>
     
@@ -62,6 +65,7 @@
       <g:availability>in stock</g:availability>
       <g:price>85.00 USD</g:price>
       <g:sale_price>65.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
 
@@ -77,6 +81,7 @@
       <g:availability>in stock</g:availability>
       <g:price>299.00 USD</g:price>
       <g:sale_price>259.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
 
@@ -92,6 +97,7 @@
       <g:availability>in stock</g:availability>
       <g:price>50.00 USD</g:price>
       <g:sale_price>30.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
 
@@ -107,6 +113,7 @@
       <g:availability>in stock</g:availability>
       <g:price>75.00 USD</g:price>
       <g:sale_price>55.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
 
@@ -122,6 +129,7 @@
       <g:availability>in stock</g:availability>
       <g:price>120.00 USD</g:price>
       <g:sale_price>99.00 USD</g:sale_price>
+      <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
 
@@ -137,6 +145,7 @@
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
       <g:sale_price>399.00 USD</g:sale_price>
+      <g:product_type>Gaming</g:product_type>
       <g:google_product_category>Gaming</g:google_product_category>
     </item>
 
@@ -152,6 +161,7 @@
       <g:availability>in stock</g:availability>
       <g:price>250.00 USD</g:price>
       <g:sale_price>199.00 USD</g:sale_price>
+      <g:product_type>Gaming</g:product_type>
       <g:google_product_category>Gaming</g:google_product_category>
     </item>
 
@@ -167,6 +177,7 @@
       <g:availability>in stock</g:availability>
       <g:price>320.00 USD</g:price>
       <g:sale_price>289.00 USD</g:sale_price>
+      <g:product_type>Tablet</g:product_type>
       <g:google_product_category>Tablet</g:google_product_category>
     </item>
 
@@ -182,6 +193,7 @@
       <g:availability>in stock</g:availability>
       <g:price>199.00 USD</g:price>
       <g:sale_price>189.00 USD</g:sale_price>
+      <g:product_type>Wearable</g:product_type>
       <g:google_product_category>Wearable</g:google_product_category>
     </item>
   </channel>
