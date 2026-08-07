@@ -1,6 +1,6 @@
 const productos=[
     {id:1, sku: '0000001', nombre:'Laptop Gamer', precio:1299, categoria: 'PC', descripcion: 'Potente laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.', imagen: 'img/laptop.png'},
-    {id:2, sku: '0000002', nombre:'Auriculares Premium', precio:150, categoria: 'Audio', descripcion: 'Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.', imagen: 'img/audio.png'},
+    {id:2, sku: '0000002', nombre:'Auriculares Premium GT', precio:150, categoria: 'Audio', descripcion: 'Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.', imagen: 'img/audio.png'},
     {id:3, sku: '0000003', nombre:'Smart TV 55"', precio:499, categoria: 'TV', descripcion: 'Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.', imagen: 'img/tv.png'},
     {id:4, sku: '0000004', nombre:'Teclado Mecánico', precio:85, categoria: 'PC', descripcion: 'Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.', imagen: 'img/teclado.png'},
     {id:5, sku: '0000005', nombre:'Monitor 27" 144Hz', precio:299, categoria: 'PC', descripcion: 'Monitor gaming con panel IPS, 1ms de respuesta y FreeSync.', imagen: 'img/monitor.png'},
