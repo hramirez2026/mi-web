@@ -8,7 +8,7 @@ const productos=[
     {id:7, sku: '0000007', nombre:'Cámara Web HD', precio:75, categoria: 'PC', descripcion: 'Cámara web 1080p con micrófono estéreo incorporado, ideal para streaming.', imagen: 'img/webcam.svg'},
     {id:8, sku: '0000008', nombre:'Micrófono de Condensador', precio:120, categoria: 'Audio', descripcion: 'Micrófono profesional para podcasting y grabación de voz con patrón cardioide.', imagen: 'img/mic.svg'},
     {id:9, sku: '0000009', nombre:'Consola de Videojuegos', precio:499, categoria: 'Gaming', descripcion: 'Consola de última generación con soporte para 4K, ray tracing y disco SSD ultrarrápido.', imagen: 'img/console.svg'},
-    {id:10, sku: '0000010', nombre:'Silla Gamer', precio:250, categoria: 'Gaming', descripcion: 'Silla ergonómica con soporte lumbar ajustable, reclinable hasta 180 grados.', imagen: 'img/chair.svg'},
+    {id:10, sku: '0000010', nombre:'Silla Gamer DXRacer', precio:250, categoria: 'Gaming', descripcion: 'Silla ergonómica con soporte lumbar ajustable, reclinable hasta 180 grados.', imagen: 'img/chair.svg'},
     {id:11, sku: '0000011', nombre:'Tablet 10"', precio:320, categoria: 'Tablet', descripcion: 'Tablet delgada y ligera con pantalla de alta resolución y gran autonomía.', imagen: 'img/tablet.svg'},
     {id:12, sku: '0000012', nombre:'Reloj Inteligente', precio:199, categoria: 'Wearable', descripcion: 'Smartwatch con monitor de frecuencia cardíaca, GPS y resistencia al agua.', imagen: 'img/watch.svg'}
 ];
