@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
-    <title>Demo Meta Pixel Catalog</title>
-    <link>https://tudominio.com</link>
-    <description>Catálogo de productos para Demo Meta Pixel</description>
+    <title>Meta Pixel Catalog</title>
+    <link>https://hramirez2026.github.io/mi-web/</link>
+    <description>Catálogo de productos para Meta Pixel</description>
     
     <item>
       <g:id>1</g:id>
       <g:sku>0000001</g:sku>
       <g:title>Laptop Gamer</g:title>
-      <g:description>Potente laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.</g:description>
+      <g:description>Laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=1</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/laptop.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Victus</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>1299.00 USD</g:price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
     
     <item>
@@ -25,10 +26,12 @@
       <g:description>Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=2</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/audio.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Hyperx</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>150.00 USD</g:price>
+      <g:sale_price>120.00 USD</g:sale_price>
+      <g:google_product_category>Audio</g:google_product_category>
     </item>
     
     <item>
@@ -38,10 +41,12 @@
       <g:description>Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=3</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/tv.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>LG</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
+      <g:sale_price>399.00 USD</g:sale_price>
+      <g:google_product_category>TV</g:google_product_category>
     </item>
     
     <item>
@@ -51,10 +56,12 @@
       <g:description>Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=4</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/teclado.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Hyperx</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>85.00 USD</g:price>
+      <g:sale_price>65.00 USD</g:sale_price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
 
     <item>
@@ -64,10 +71,12 @@
       <g:description>Monitor gaming con panel IPS, 1ms de respuesta y FreeSync.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=5</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/monitor.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Acer</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>299.00 USD</g:price>
+      <g:sale_price>259.00 USD</g:sale_price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
 
     <item>
@@ -77,10 +86,12 @@
       <g:description>Ratón ergonómico con sensor óptico de alta precisión y batería recargable.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=6</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/mouse.png</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Logitech</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>50.00 USD</g:price>
+      <g:sale_price>30.00 USD</g:sale_price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
 
     <item>
@@ -90,10 +101,12 @@
       <g:description>Cámara web 1080p con micrófono estéreo incorporado, ideal para streaming.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=7</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/webcam.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Logitech</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>75.00 USD</g:price>
+      <g:sale_price>55.00 USD</g:sale_price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
 
     <item>
@@ -103,10 +116,12 @@
       <g:description>Micrófono profesional para podcasting y grabación de voz con patrón cardioide.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=8</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/mic.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Hyperx</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>120.00 USD</g:price>
+      <g:sale_price>99.00 USD</g:sale_price>
+      <g:google_product_category>PC</g:google_product_category>
     </item>
 
     <item>
@@ -116,10 +131,12 @@
       <g:description>Consola de última generación con soporte para 4K, ray tracing y disco SSD ultrarrápido.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=9</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/console.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Sony</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
+      <g:sale_price>399.00 USD</g:sale_price>
+      <g:google_product_category>Gaming</g:google_product_category>
     </item>
 
     <item>
@@ -129,10 +146,12 @@
       <g:description>Silla ergonómica con soporte lumbar ajustable, reclinable hasta 180 grados.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=10</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/chair.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>MaxiSteel</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>250.00 USD</g:price>
+      <g:sale_price>199.00 USD</g:sale_price>
+      <g:google_product_category>Gaming</g:google_product_category>
     </item>
 
     <item>
@@ -142,10 +161,12 @@
       <g:description>Tablet delgada y ligera con pantalla de alta resolución y gran autonomía.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=11</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/tablet.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Lenovo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>320.00 USD</g:price>
+      <g:sale_price>289.00 USD</g:sale_price>
+      <g:google_product_category>Tablet</g:google_product_category>
     </item>
 
     <item>
@@ -155,10 +176,12 @@
       <g:description>Smartwatch con monitor de frecuencia cardíaca, GPS y resistencia al agua.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=12</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/watch.svg</g:image_link>
-      <g:brand>DemoBrand</g:brand>
+      <g:brand>Amazfit</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>199.00 USD</g:price>
+      <g:sale_price>189.00 USD</g:sale_price>
+      <g:google_product_category>Wearable</g:google_product_category>
     </item>
   </channel>
 </rss>
