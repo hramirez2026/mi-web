@@ -16,6 +16,7 @@
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>1299.00 USD</g:price>
+      <g:sale_price>1099.00 USD</g:sale_price>
       <g:google_product_category>PC</g:google_product_category>
     </item>
     
