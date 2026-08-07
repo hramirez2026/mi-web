@@ -97,13 +97,21 @@
           let descripcionProducto = document.getElementById('detail-desc').textContent;
           
           if (nombreProducto && nombreProducto !== 'Cargando...') {
+            const params = new URLSearchParams(window.location.search);
+            const productId = params.get('id') || 'desconocido';
+
             const jsonLd = {
               "@context": "https://schema.org/",
               "@type": "Product",
               "name": nombreProducto,
-              "image": [imagenProducto],
+              "brand": {
+                "@type": "Brand",
+                "name": "Mi Tienda" // Puedes cambiar esto por la marca real
+              },
               "description": descripcionProducto,
-              "category": categoriaProducto,
+              "productID": productId,
+              "url": window.location.href,
+              "image": [imagenProducto],
               "offers": {
                 "@type": "Offer",
                 "url": window.location.href,
