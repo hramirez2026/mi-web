@@ -1,16 +1,16 @@
 const productos=[
-    {id:1, sku: '0000001', nombre:'Laptop Gamer', precio:1299, categoria: 'PC', descripcion: 'Potente laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.', imagen: 'img/laptop.png'},
+    {id:1, sku: '0000001', nombre:'Laptop Gamer Victus 15', precio:1299, categoria: 'PC', descripcion: 'Potente laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.', imagen: 'img/laptop.png'},
     {id:2, sku: '0000002', nombre:'Auriculares Premium GT', precio:150, categoria: 'Audio', descripcion: 'Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.', imagen: 'img/audio.png'},
-    {id:3, sku: '0000003', nombre:'Smart TV 55"', precio:499, categoria: 'TV', descripcion: 'Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.', imagen: 'img/tv.png'},
-    {id:4, sku: '0000004', nombre:'Teclado Mecánico', precio:85, categoria: 'PC', descripcion: 'Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.', imagen: 'img/teclado.png'},
+    {id:3, sku: '0000003', nombre:'Smart TV Samsung QLED 55"', precio:499, categoria: 'TV', descripcion: 'Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.', imagen: 'img/tv.png'},
+    {id:4, sku: '0000004', nombre:'Teclado Mecánico Logitech', precio:85, categoria: 'PC', descripcion: 'Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.', imagen: 'img/teclado.png'},
     {id:5, sku: '0000005', nombre:'Monitor 27" 144Hz', precio:299, categoria: 'PC', descripcion: 'Monitor gaming con panel IPS, 1ms de respuesta y FreeSync.', imagen: 'img/monitor.png'},
-    {id:6, sku: '0000006', nombre:'Ratón Inalámbrico', precio:50, categoria: 'PC', descripcion: 'Ratón ergonómico con sensor óptico de alta precisión y batería recargable.', imagen: 'img/mouse.png'},
-    {id:7, sku: '0000007', nombre:'Cámara Web HD', precio:75, categoria: 'PC', descripcion: 'Cámara web 1080p con micrófono estéreo incorporado, ideal para streaming.', imagen: 'img/webcam.svg'},
-    {id:8, sku: '0000008', nombre:'Micrófono de Condensador', precio:120, categoria: 'Audio', descripcion: 'Micrófono profesional para podcasting y grabación de voz con patrón cardioide.', imagen: 'img/mic.svg'},
-    {id:9, sku: '0000009', nombre:'Consola de Videojuegos', precio:499, categoria: 'Gaming', descripcion: 'Consola de última generación con soporte para 4K, ray tracing y disco SSD ultrarrápido.', imagen: 'img/console.svg'},
+    {id:6, sku: '0000006', nombre:'Ratón Inalámbrico Logitech', precio:50, categoria: 'PC', descripcion: 'Ratón ergonómico con sensor óptico de alta precisión y batería recargable.', imagen: 'img/mouse.png'},
+    {id:7, sku: '0000007', nombre:'Cámara Web Logitech HD', precio:75, categoria: 'PC', descripcion: 'Cámara web 1080p con micrófono estéreo incorporado, ideal para streaming.', imagen: 'img/webcam.svg'},
+    {id:8, sku: '0000008', nombre:'Micrófono de Condensador Blue', precio:120, categoria: 'Audio', descripcion: 'Micrófono profesional para podcasting y grabación de voz con patrón cardioide.', imagen: 'img/mic.svg'},
+    {id:9, sku: '0000009', nombre:'Consola de Videojuegos PS5', precio:499, categoria: 'Gaming', descripcion: 'Consola de última generación con soporte para 4K, ray tracing y disco SSD ultrarrápido.', imagen: 'img/console.svg'},
     {id:10, sku: '0000010', nombre:'Silla Gamer DXRacer', precio:250, categoria: 'Gaming', descripcion: 'Silla ergonómica con soporte lumbar ajustable, reclinable hasta 180 grados.', imagen: 'img/chair.svg'},
-    {id:11, sku: '0000011', nombre:'Tablet 10"', precio:320, categoria: 'Tablet', descripcion: 'Tablet delgada y ligera con pantalla de alta resolución y gran autonomía.', imagen: 'img/tablet.svg'},
-    {id:12, sku: '0000012', nombre:'Reloj Inteligente', precio:199, categoria: 'Wearable', descripcion: 'Smartwatch con monitor de frecuencia cardíaca, GPS y resistencia al agua.', imagen: 'img/watch.svg'}
+    {id:11, sku: '0000011', nombre:'Tablet Samsung 10"', precio:320, categoria: 'Tablet', descripcion: 'Tablet delgada y ligera con pantalla de alta resolución y gran autonomía.', imagen: 'img/tablet.svg'},
+    {id:12, sku: '0000012', nombre:'Reloj Inteligente Samsung', precio:199, categoria: 'Wearable', descripcion: 'Smartwatch con monitor de frecuencia cardíaca, GPS y resistencia al agua.', imagen: 'img/watch.svg'}
 ];
 
 // Initialize cart from localStorage
