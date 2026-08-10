@@ -5,7 +5,7 @@
     <link>https://hramirez2026.github.io/mi-web/</link>
     <description>Catálogo de productos para Meta Pixel</description>
     
-    <item>
+    <!-- <item>
       <g:id>1</g:id>
       <g:sku>0000001</g:sku>
       <g:title>Computadora Portátil de 15 Pulgadas</g:title>
@@ -68,6 +68,7 @@
       <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
     </item>
+    -->
 
     <item>
       <g:id>5</g:id>
