@@ -8,14 +8,14 @@
     <item>
       <g:id>1</g:id>
       <g:sku>0000001</g:sku>
-      <g:title>Laptop Gamer</g:title>
-      <g:description>Laptop para gaming con gráficos de última generación, pantalla de 144Hz y teclado retroiluminado RGB. Ideal para profesionales y entusiastas.</g:description>
+      <g:title>Computadora Portátil de 15 Pulgadas</g:title>
+      <g:description>Computadora portátil con procesador de alto rendimiento, pantalla de 144Hz y teclado retroiluminado. Incluye memoria RAM de 16GB y disco de estado sólido.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=1</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/laptop.png</g:image_link>
-      <g:brand>Victus</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>1299.00 USD</g:price>
+      <g:price>1399.00 USD</g:price>
       <g:sale_price>1099.00 USD</g:sale_price>
       <g:product_type>PC</g:product_type>
       <g:google_product_category>PC</g:google_product_category>
@@ -24,11 +24,11 @@
     <item>
       <g:id>2</g:id>
       <g:sku>0000002</g:sku>
-      <g:title>Auriculares Premium GT</g:title>
-      <g:description>Auriculares inalámbricos con cancelación de ruido activa, sonido de alta fidelidad y batería de larga duración. Perfecto para música y podcasts.</g:description>
+      <g:title>Auriculares Inalámbricos de Diadema</g:title>
+      <g:description>Auriculares inalámbricos de diadema con cancelación de ruido activa y batería recargable mediante cable USB-C.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=2</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/audio.png</g:image_link>
-      <g:brand>Hyperx</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>150.00 USD</g:price>
@@ -40,11 +40,11 @@
     <item>
       <g:id>3</g:id>
       <g:sku>0000003</g:sku>
-      <g:title>Smart TV 55"</g:title>
-      <g:description>Televisor inteligente 4K UHD con colores vibrantes, HDR y sonido envolvente para una experiencia cinematográfica inigualable en tu hogar.</g:description>
+      <g:title>Televisor Inteligente de 55 Pulgadas</g:title>
+      <g:description>Televisor de 55 pulgadas con resolución 4K UHD y conectividad Wi-Fi para acceso a aplicaciones de contenido multimedia.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=3</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/tv.png</g:image_link>
-      <g:brand>LG</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
@@ -56,11 +56,11 @@
     <item>
       <g:id>4</g:id>
       <g:sku>0000004</g:sku>
-      <g:title>Teclado Mecánico</g:title>
-      <g:description>Teclado mecánico con switches táctiles, retroiluminación RGB personalizable y diseño ergonómico para largas sesiones de uso.</g:description>
+      <g:title>Teclado Mecánico USB</g:title>
+      <g:description>Teclado mecánico con interruptores táctiles y retroiluminación LED ajustable. Conexión mediante cable USB.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=4</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/teclado.png</g:image_link>
-      <g:brand>Hyperx</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>85.00 USD</g:price>
@@ -72,11 +72,11 @@
     <item>
       <g:id>5</g:id>
       <g:sku>0000005</g:sku>
-      <g:title>Monitor 27" 144Hz</g:title>
-      <g:description>Monitor gaming con panel IPS, 1ms de respuesta y FreeSync.</g:description>
+      <g:title>Monitor de 27 Pulgadas</g:title>
+      <g:description>Monitor de 27 pulgadas con panel IPS, resolución Full HD y frecuencia de actualización de 144Hz.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=5</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/monitor.png</g:image_link>
-      <g:brand>Acer</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>299.00 USD</g:price>
@@ -88,11 +88,11 @@
     <item>
       <g:id>6</g:id>
       <g:sku>0000006</g:sku>
-      <g:title>Ratón Inalámbrico</g:title>
-      <g:description>Ratón ergonómico con sensor óptico de alta precisión y batería recargable.</g:description>
+      <g:title>Ratón Inalámbrico USB</g:title>
+      <g:description>Ratón inalámbrico con sensor óptico, diseño ergonómico y batería recargable integrada.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=6</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/mouse.png</g:image_link>
-      <g:brand>Logitech</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>50.00 USD</g:price>
@@ -104,11 +104,11 @@
     <item>
       <g:id>7</g:id>
       <g:sku>0000007</g:sku>
-      <g:title>Cámara Web HD</g:title>
-      <g:description>Cámara web 1080p con micrófono estéreo incorporado, ideal para streaming.</g:description>
+      <g:title>Cámara Web 1080p</g:title>
+      <g:description>Cámara web con resolución 1080p, conexión USB y micrófono estéreo incorporado para videollamadas.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=7</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/webcam.svg</g:image_link>
-      <g:brand>Logitech</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>75.00 USD</g:price>
@@ -121,26 +121,26 @@
       <g:id>8</g:id>
       <g:sku>0000008</g:sku>
       <g:title>Micrófono de Condensador</g:title>
-      <g:description>Micrófono profesional para podcasting y grabación de voz con patrón cardioide.</g:description>
+      <g:description>Micrófono de condensador con patrón polar cardioide, base de escritorio y conexión USB.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=8</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/mic.svg</g:image_link>
-      <g:brand>Hyperx</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>out of stock</g:availability>
       <g:price>120.00 USD</g:price>
       <g:sale_price>99.00 USD</g:sale_price>
-      <g:product_type>PC</g:product_type>
-      <g:google_product_category>PC</g:google_product_category>
+      <g:product_type>Audio</g:product_type>
+      <g:google_product_category>Audio</g:google_product_category>
     </item>
 
     <item>
       <g:id>9</g:id>
       <g:sku>0000009</g:sku>
-      <g:title>Consola de Videojuegos</g:title>
-      <g:description>Consola de última generación con soporte para 4K, ray tracing y disco SSD ultrarrápido.</g:description>
+      <g:title>Consola de Videojuegos Doméstica</g:title>
+      <g:description>Consola de videojuegos doméstica con unidad de estado sólido interno y mando inalámbrico incluido.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=9</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/console.svg</g:image_link>
-      <g:brand>Sony</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>499.00 USD</g:price>
@@ -152,11 +152,11 @@
     <item>
       <g:id>10</g:id>
       <g:sku>0000010</g:sku>
-      <g:title>Silla Gamer</g:title>
-      <g:description>Silla ergonómica con soporte lumbar ajustable, reclinable hasta 180 grados.</g:description>
+      <g:title>Silla de Escritorio Ergonómica</g:title>
+      <g:description>Silla de escritorio con diseño ergonómico, soporte lumbar ajustable y respaldo reclinable.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=10</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/chair.svg</g:image_link>
-      <g:brand>MaxiSteel</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>250.00 USD</g:price>
@@ -168,11 +168,11 @@
     <item>
       <g:id>11</g:id>
       <g:sku>0000011</g:sku>
-      <g:title>Tablet 10"</g:title>
-      <g:description>Tablet delgada y ligera con pantalla de alta resolución y gran autonomía.</g:description>
+      <g:title>Tableta de 10 Pulgadas</g:title>
+      <g:description>Tableta electrónica de 10 pulgadas con pantalla táctil, conectividad Wi-Fi y cámaras frontal y trasera.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=11</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/tablet.svg</g:image_link>
-      <g:brand>Lenovo</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>320.00 USD</g:price>
@@ -184,17 +184,33 @@
     <item>
       <g:id>12</g:id>
       <g:sku>0000012</g:sku>
-      <g:title>Reloj Inteligente</g:title>
-      <g:description>Smartwatch con monitor de frecuencia cardíaca, GPS y resistencia al agua.</g:description>
+      <g:title>Reloj Inteligente Deportivo</g:title>
+      <g:description>Reloj inteligente con conectividad Bluetooth, monitor de frecuencia cardíaca y resistencia al agua.</g:description>
       <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=12</g:link>
       <g:image_link>https://hramirez2026.github.io/mi-web/img/watch.svg</g:image_link>
-      <g:brand>Amazfit</g:brand>
+      <g:brand>TechDemo</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>199.00 USD</g:price>
       <g:sale_price>189.00 USD</g:sale_price>
       <g:product_type>Wearable</g:product_type>
       <g:google_product_category>Wearable</g:google_product_category>
+    </item>
+    
+    <item>
+      <g:id>13</g:id>
+      <g:sku>0000013</g:sku>
+      <g:title>Audífonos Inalámbricos Básicos</g:title>
+      <g:description>Audífonos inalámbricos intrauditivos con conectividad Bluetooth y estuche de carga recargable.</g:description>
+      <g:link>https://hramirez2026.github.io/mi-web/detalles.html?id=13</g:link>
+      <g:image_link>https://hramirez2026.github.io/mi-web/img/p1.png</g:image_link>
+      <g:brand>TechDemo</g:brand>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>199.00 USD</g:price>
+      <g:sale_price>129.00 USD</g:sale_price>
+      <g:product_type>Audio</g:product_type>
+      <g:google_product_category>Audio</g:google_product_category>
     </item>
   </channel>
 </rss>
