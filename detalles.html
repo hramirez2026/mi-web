@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Detalles - Meta Pixel</title>
 
-        <meta property="og:title" content="Detalles - Meta Pixel" />
-        <meta property="og:description" content="Detalles - Meta Pixel" />
+        <meta property="og:title" content="nombreProducto" />
+        <meta property="og:description" content="descripcionProducto" />
         <meta property="og:url" content="https://hramirez2026.github.io/meta-pixel-demo/detalles.html" />
         <meta property="og:image" content="https://hramirez2026.github.io/meta-pixel-demo/img/mic.svg" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="product" />
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel=stylesheet>
         <link href="css/styles.css" rel=stylesheet>
@@ -89,44 +89,49 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {
-          let nombreProducto = document.getElementById('detail-title').textContent;
-          let imagenProducto = document.getElementById('detail-img').src;
-          let precioProducto = document.getElementById('detail-price').textContent.replace('$', '').trim();
-          let categoriaProducto = document.getElementById('detail-category').textContent;
-          let descripcionProducto = document.getElementById('detail-desc').textContent;
+        let nombreProducto = document.getElementById('detail-title').textContent;
+        let imagenProducto = document.getElementById('detail-img').src;
+        let precioProducto = document.getElementById('detail-price').textContent.replace('$', '').trim();
+        let categoriaProducto = document.getElementById('detail-category').textContent;
+        let descripcionProducto = document.getElementById('detail-desc').textContent;
+        
+        if (nombreProducto && nombreProducto !== 'Cargando...') {
+          // Actualizar las etiquetas meta Open Graph dinámicamente
+          let metaTitle = document.querySelector('meta[property="og:title"]');
+          if (metaTitle) metaTitle.setAttribute('content', nombreProducto);
           
-          if (nombreProducto && nombreProducto !== 'Cargando...') {
-            const params = new URLSearchParams(window.location.search);
-            const productId = params.get('id') || 'desconocido';
+          let metaDesc = document.querySelector('meta[property="og:description"]');
+          if (metaDesc) metaDesc.setAttribute('content', descripcionProducto);
 
-            const jsonLd = {
-              "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": nombreProducto,
-              "brand": {
-                "@type": "Brand",
-                "name": "Mi Tienda" // Puedes cambiar esto por la marca real
-              },
-              "description": descripcionProducto,
-              "productID": productId,
+          const params = new URLSearchParams(window.location.search);
+          const productId = params.get('id') || 'desconocido';
+
+          const jsonLd = {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": nombreProducto,
+            "brand": {
+              "@type": "Brand",
+              "name": "Mi Tienda" // Puedes cambiar esto por la marca real
+            },
+            "description": descripcionProducto,
+            "productID": productId,
+            "url": window.location.href,
+            "image": [imagenProducto],
+            "offers": {
+              "@type": "Offer",
               "url": window.location.href,
-              "image": [imagenProducto],
-              "offers": {
-                "@type": "Offer",
-                "url": window.location.href,
-                "priceCurrency": "USD",
-                "price": precioProducto,
-                "itemCondition": "https://schema.org/NewCondition",
-                "availability": "https://schema.org/InStock"
-              }
-            };
-            const scriptTag = document.createElement('script');
-            scriptTag.type = 'application/ld+json';
-            scriptTag.text = JSON.stringify(jsonLd);
-            document.head.appendChild(scriptTag);
-          }
-        }, 100);
+              "priceCurrency": "USD",
+              "price": precioProducto,
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock"
+            }
+          };
+          const scriptTag = document.createElement('script');
+          scriptTag.type = 'application/ld+json';
+          scriptTag.text = JSON.stringify(jsonLd);
+          document.head.appendChild(scriptTag);
+        }
       });
     </script>
 
