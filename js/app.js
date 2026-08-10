@@ -87,7 +87,7 @@ function agregar(id){
     const p=productos.find(x=>x.id===id);
     c.push(p);
     actualizarCarritoUI();
-    fbq('track','AddToCart',{content_ids:[p.id],content_name:p.nombre,content_type:'product',value:p.precio,currency:'USD'});
+    fbq('track','AddToCart',{content_ids: String(p.id),content_name:p.nombre,content_type:'product',value:p.precio,currency:'USD'});
 }
 
 function eliminar(index) {
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Trigger ViewContent event
             fbq('track', 'ViewContent', {
-                content_ids: [p.id],
+                content_ids: String(p.id),
                 content_name: p.nombre,
                 content_category: p.categoria,
                 content_type: 'product',
