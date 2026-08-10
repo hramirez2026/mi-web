@@ -91,7 +91,7 @@
       document.addEventListener('DOMContentLoaded', () => {
         let nombreProducto = document.getElementById('detail-title').textContent;
         let imagenProducto = document.getElementById('detail-img').src;
-        let precioProducto = document.getElementById('detail-price').textContent.replace('$', '').trim();
+        let precioProducto = document.getElementById('detail-price').getAttribute('data-price') || document.getElementById('detail-price').textContent.replace('$', '').trim();
         let categoriaProducto = document.getElementById('detail-category').textContent;
         let descripcionProducto = document.getElementById('detail-desc').textContent;
         
