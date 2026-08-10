@@ -40,11 +40,10 @@
         document.addEventListener('DOMContentLoaded', () => {
             const total = parseFloat(localStorage.getItem('cartTotal')) || 0;
             const ids = JSON.parse(localStorage.getItem('cartIds') || '[]').map(String);
-            const formattedIds = ids.length === 1 ? ids[0] : ids;
             
             if(total > 0) {
                 fbq('track', 'Purchase', {
-                    content_ids: formattedIds,
+                    content_ids: ids,
                     content_type: 'product',
                     value: total,
                     currency: 'USD'
