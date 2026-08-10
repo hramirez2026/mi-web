@@ -1,7 +1,3 @@
-/* {id:1, sku: '0000001', nombre:'Computadora Portátil de 15 Pulgadas', precio:1399, precioOferta: 1099, categoria: 'PC', descripcion: 'Computadora portátil con procesador de alto rendimiento, pantalla de 144Hz y teclado retroiluminado. Incluye memoria RAM de 16GB y disco de estado sólido.', imagen: 'img/laptop.png'},
-    {id:2, sku: '0000002', nombre:'Auriculares Inalámbricos de Diadema', precio:150, precioOferta: 120, categoria: 'Audio', descripcion: 'Auriculares inalámbricos de diadema con cancelación de ruido activa y batería recargable mediante cable USB-C.', imagen: 'img/audio.png'},
-    {id:3, sku: '0000003', nombre:'Televisor Inteligente de 55 Pulgadas', precio:499, precioOferta: 399, categoria: 'TV', descripcion: 'Televisor de 55 pulgadas con resolución 4K UHD y conectividad Wi-Fi para acceso a aplicaciones de contenido multimedia.', imagen: 'img/tv.png'},
-    {id:4, sku: '0000004', nombre:'Teclado Mecánico USB', precio:85, precioOferta: 65, categoria: 'PC', descripcion: 'Teclado mecánico con interruptores táctiles y retroiluminación LED ajustable. Conexión mediante cable USB.', imagen: 'img/teclado.png'},*/
 const productos=[
     {id:5, sku: '0000005', nombre:'Monitor de 27 Pulgadas 144Hz', precio:299, precioOferta: 259, categoria: 'PC', descripcion: 'Monitor de 27 pulgadas con panel IPS, resolución Full HD y frecuencia de actualización de 144Hz.', imagen: 'img/monitor.png'},
     {id:6, sku: '0000006', nombre:'Ratón Inalámbrico USB Pro XZ', precio:60, precioOferta: 340, categoria: 'PC', descripcion: 'Ratón inalámbrico con sensor óptico, diseño ergonómico y batería recargable integrada.', imagen: 'img/mouse.png'},
@@ -51,7 +47,7 @@ actualizarCarritoUI();
 
 function actualizarCarritoUI() {
     localStorage.setItem('cart', JSON.stringify(c));
-    const cartCountElement = document.getElementById('cart-count');
+    const cartCountElement = document.getElementById('cantidad');
     if (cartCountElement) {
         cartCountElement.textContent = c.length;
     }
